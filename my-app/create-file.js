@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-    const content = '1234';
+    const content = '10';
 
     fs.writeFile('data.txt', content, (err) => {
         if (err) {
